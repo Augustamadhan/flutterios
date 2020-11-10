@@ -7,7 +7,7 @@ workflows:
         environment:
             vars:
                 FLUTTER_MODULE_DIR: "{{ ios }}"
-                HOST_IOS_APP_DIR: "{{ ios }}"
+                HOST_IOS_APP_DIR: "{{ ios/Runner }}"
                 XCODE_PROJECT: "{{ Runner.xcodeproj }}"
                 XCODE_SCHEME: "{{ Runner }}"
             xcode: edge
